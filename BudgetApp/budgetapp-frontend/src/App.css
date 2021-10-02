@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: url('./assets/images/bg-texture2.jpg');
+  background-repeat: no-repeat;
+}
+.table_flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.mainTable_flex-container{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1020px){
+  .table_flex-container{
+    flex-direction: column;
+  }
+}
+form{
+  border: 0.1em solid rgb(226, 225, 225);
+  margin-top: 3%;
+}
+.flex-container_form{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+.title{
+  margin-top: 5%;
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+#small-info{
+  color: red;
+}
+header{
+  height: 6em;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-add{
+  margin-top: 1em;
+}
+.title-main{
+  color: white;
+}
+.flex-container_balance{
+  display: flex;
+  justify-content: center;
+}
+.link{
+  color: black;
+}
+caption{
+  color: black;
+}
+#main-table{
+  border: 0.1em solid black
+}

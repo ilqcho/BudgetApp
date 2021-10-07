@@ -1,11 +1,11 @@
 # BudgetApp
 Budget administrator App with JavaScript:
 
-SO: Windows 10
-Node v14.17.6
-js v1.7
-React v17.0.2
-Versión del servidor: 10.4.21-MariaDB
+-SO: Windows 10 </br>
+-Node: v14.17.6 </br>
+-JavaScript: v1.7 </br>
+-React: v17.0.2 </br>
+-Server version: 10.4.21-MariaDB
 
 Follow this steps for correct installation:
 
@@ -20,7 +20,7 @@ Follow this steps for correct installation:
 The BudgetApp allows you to keep track at your incomes/expenses and get a balance of your operations.
 You can: add new operations, edit or remove them, view a list of your latest operations, view lists of incomes and expenses and finally get an updated balance of your operations.
 
-This project was developed using Node.js and express to create the server APIs, MariaDB for modeling the database, React.js for components visualization and bootstrap & CSS for styles.
+This project was developed using Node.js and express to create the APIs, MariaDB for modeling the database, React.js for components visualization and bootstrap & CSS for styles.
 
 
 

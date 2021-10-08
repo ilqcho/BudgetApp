@@ -65,6 +65,7 @@ export default function AddOperation(props){
                     <br />
                     <div className='input-group mb-3'>
                         <span className='input-group-text'>$</span>
+                        <input className='form-control' type="number" value={form.amount} onChange={handleAmount}/>
                     </div>
                     <div>
                         <input 

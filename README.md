@@ -7,6 +7,11 @@ Budget administrator App with JavaScript:
 -React: v17.0.2 </br>
 -Server version: 10.4.21-MariaDB
 
+The BudgetApp allows you to keep track at your incomes/expenses and get a balance of your operations.
+You can: add new operations, edit or remove them, view a list of your latest operations, view lists of incomes and expenses and finally get an updated balance of your operations.
+
+This project was developed using Node.js and express to create the APIs, MariaDB for modeling the database, React.js for components visualization and bootstrap & CSS for styles.
+
 Follow this steps for correct installation:
 
 1) Download the BudgetApp project.
@@ -16,11 +21,6 @@ Follow this steps for correct installation:
 5) npm start at BudgetApp-Backend folder
 6) npm install at budgetapp-frontend folder (this should create the node_modules folder)
 7) npm start at budgetapp-frontend folder
-
-The BudgetApp allows you to keep track at your incomes/expenses and get a balance of your operations.
-You can: add new operations, edit or remove them, view a list of your latest operations, view lists of incomes and expenses and finally get an updated balance of your operations.
-
-This project was developed using Node.js and express to create the APIs, MariaDB for modeling the database, React.js for components visualization and bootstrap & CSS for styles.
 
 
 
